@@ -12,9 +12,21 @@
   <link rel="icon" href="https://avatars.githubusercontent.com/u/87752773?s=400&u=a4298f899ef435da3de0c1cc9805962b44b3db11&v=4">
 </head>
 <body>
+  <div class="overlay"></div>
   <iframe width=100vw height=100vh src="//www.youtube.com/embed/sQUhFx9UBOs?autoplay=1&cc_load_policy=1&rel=0&showinfo=0"
        frameborder="0" allowfullscreen>
     </iframe>
   <script src="js/scripts.js"></script>
+  <style>
+    .overlay{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vh;
+      height: 100vh;
+      z-index: 10;
+      background-color: rgba(0,0,0,0); /*dim the background*/
+    }
+  </style>
 </body>
 </html>
