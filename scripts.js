@@ -3,6 +3,11 @@ div.setAttribute("class","overlay");
 document.body.insertBefore(div, document.body.firstChild);
 
 
+var topdiv = document.createElement("div");
+topdiv.setAttribute("class","rect");
+document.body.insertBefore(topdiv, document.body.firstChild);
+
+
 
 
 
