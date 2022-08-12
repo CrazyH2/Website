@@ -3,6 +3,11 @@ topdiv.setAttribute("class","rect");
 document.body.insertBefore(topdiv, document.body.firstChild);
 
 
+var logodiv = document.createElement("div");
+logodiv.setAttribute("class","logo");
+document.body.insertBefore(logodiv, document.body.firstChild);
+
+
 var div = document.createElement("div");
 div.setAttribute("class","overlay");
 document.body.insertBefore(div, document.body.firstChild);
