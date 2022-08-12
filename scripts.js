@@ -1,11 +1,11 @@
-var div = document.createElement("div");
-div.setAttribute("class","overlay");
-document.body.insertBefore(div, document.body.firstChild);
-
-
 var topdiv = document.createElement("div");
 topdiv.setAttribute("class","rect");
 document.body.insertBefore(topdiv, document.body.firstChild);
+
+
+var div = document.createElement("div");
+div.setAttribute("class","overlay");
+document.body.insertBefore(div, document.body.firstChild);
 
 
 
